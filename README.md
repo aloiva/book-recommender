@@ -97,3 +97,13 @@ npm start
 ```
 
 This will start the app, and run it by default on [http://localhost:3000/](http://localhost:3000/)
+
+# Screenshots
+### Homepage
+![Homepage](./screenshots/homepage.png)
+### Recommendations page
+![Recommendations](./screenshots/recommendations.png)
+### Search page
+![search page](./screenshots/search_page.png)
+### Users page
+![Users page](./screenshots/switch_user_page.png)
