@@ -1,0 +1,11 @@
+.switch-user {
+    margin: 14rem;
+}
+
+.switch-user img {
+    margin: 3.5rem;
+}
+
+.switch-user .card {
+    cursor: pointer;
+}

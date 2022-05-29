@@ -1,0 +1,11 @@
+.all-ratings {
+    padding: 3rem;
+    /* width: 80% */
+    position:absolute;
+    left: 10%;
+}
+
+.all-ratings .book-card-container {
+    margin: 4rem 0;
+    padding: 2rem;
+}

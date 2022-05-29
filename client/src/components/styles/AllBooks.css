@@ -1,0 +1,41 @@
+.all-books {
+  margin: auto;
+  width: 94vw;
+  padding: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+  left: 13vh;
+}
+ 
+.all-books .book-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.all-books .book-card .book-image,
+.all-books .book-card .book-title-author {
+  margin: 1rem;
+}
+
+.all-books .btn {
+  width: 20%;
+  background: rgba(190, 114, 228, 0.386);
+  border-radius: 15px;
+}
+
+.all-books .nextbtn {
+  position: absolute;
+  right: 4rem;
+  top: 30px;
+}
+.all-books .prevbtn {
+  position: absolute;
+  left: 0;
+  top: 30px;
+}

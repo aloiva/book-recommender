@@ -1,0 +1,29 @@
+.recommender-book-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25vh;
+  width: 100%;
+}
+
+.recommender-book-container .book-card-container {
+  margin: 2rem;
+}
+
+.recommender-book-container .image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommender-book-container .card-img, .card-img-bottom, .card-img-top {
+  width: inherit !important;
+  margin: 1rem;
+}
+
+.recommender-book-container h3 {
+  width: 80%;
+}

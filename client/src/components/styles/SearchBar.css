@@ -1,0 +1,59 @@
+.searchbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-evenly;
+    /* margin: 0 1rem; */
+    /* align-content: space-around; */
+}
+
+.searchbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.searchbar li {
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 1rem 0;
+}
+
+.searchbar li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #7c4cfe;
+}
+
+.searchbar .redirectlinks {
+    margin-bottom: 0;
+}
+
+.searchbar .datetime {
+    margin-right: 1%;
+}
+
+.searchbar .datetime li,
+.searchbar .currentuser li {
+    color: #cfc8ea;
+    margin-top: 0;
+    padding: 0.1rem;
+}
+
+.form {
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.form svg {
+    margin: 1rem;
+}
+
+.search-input {
+    width: 35vw !important;
+}

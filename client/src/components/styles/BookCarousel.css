@@ -1,0 +1,68 @@
+.carousel-wrapper {
+  padding: 2rem 0;
+}
+
+.carousel-wrapper .book,
+.carousel-wrapper .card-body {
+  width: 300px !important;
+}
+
+.carousel.carousel-slider,
+.carousel .thumbs-wrapper,
+.slide {
+  width: 40vw !important;
+}
+
+.carousel.carousel-slider {
+  height: 400px;
+}
+
+.carousel .slider-wrapper {
+  overflow:visible;
+}
+
+p.card-description {
+  width: 280px;
+}
+
+.thumbs-wrapper .thumb img {
+  height: 100px;
+  width: 70px;
+}
+
+.control-arrow {
+  width: 150px;
+}
+
+.carousel .slide img {
+  width: 100px !important;
+}
+
+.carousel-wrapper .card {
+    border: none !important;
+}
+
+.carousel-status {
+  display:none !important;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  opacity: 0.1 ;
+}
+
+/* .carousel.carousel-slider ul.control-dots {
+  display: none;
+} */
+
+.thumbs-wrapper.axis-vertical button.control-arrow.control-next {
+  position: absolute !important;
+  right: -300px;
+  top:0;
+  height: 100%;
+}
+
+.thumbs-wrapper.axis-vertical button.control-arrow.control-prev {
+  position: absolute !important;
+  top: 0 ;
+  height: 100%;
+}

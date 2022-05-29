@@ -1,0 +1,27 @@
+.view-book-container {
+    margin:auto;
+    width: 94vw;
+    padding: 10vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20vh;
+}
+
+.view-book-container .book {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 1rem;
+    width: 100%;
+}
+
+.view-book-container .image-container,
+.view-book-container .meta-container {
+    margin:1rem;
+}
+
+.view-book-container .book .book-title-author {
+    margin-bottom: 2rem;
+}

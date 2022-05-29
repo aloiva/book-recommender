@@ -1,0 +1,30 @@
+.book-card {
+  width: 300px;
+  height: 350px;
+  background: #fff solid;
+}
+
+.book-card .book-image img {
+  width: 150px;
+  height: 200px;
+  margin: 1rem 2rem;
+}
+
+.book-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-image {
+  align-items: center;
+}
+
+.book-card .book-title h5 {
+  padding: 1rem;
+  text-align: center;
+}
+
+.book-title h5:hover {
+  cursor: pointer;
+}
