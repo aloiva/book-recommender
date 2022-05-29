@@ -73,7 +73,7 @@ Make sure that Python 3.6 or above is installed before running the following com
 The database can be created at the instance from the .csv files provided (taken from [Kaggle](https://www.kaggle.com/datasets/saurabhbagchi/books-dataset)) or downloaded. Downloading is suggested.
 Changes made while the app is being hosted will be reflected locally in the database as well. 
 
-> Download the database extracted at an instance [here](https://1drv.ms/u/s!AhrbshVITvFzi0vKg037nlLUiVv-?e=5aD9g8)  
+> Download the database extracted at an instance [here](https://1drv.ms/u/s!AhrbshVITvFzi0vKg037nlLUiVv-?e=5aD9g8) into `./server` directory
 
 or
 > Although not suggested due to the amount of resources and time it consumes, to create the initial database, run `./server/makedb.py`
