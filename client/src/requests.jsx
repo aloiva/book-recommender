@@ -50,8 +50,8 @@ export const requests = {
   genres: ["Fantasy", "Romance", "Thrillers", "Action", "Fiction", "Self Help"],
   types: ["bytitle", "byauthor", "query", "isbn"],
   userNamesList: { "1": "sarah", "2": "john", "3": "mary", "4": "ann", "5": "mark" },
-  userIDsList: { "1": "300000", "2": "300001", "3": "300002", "4": "300003", "5": "300004" },
-  currentUser: { "index": 1, "userID": 14, "userName": "Sarah" },
+  userIDsList: { "1": "13552", "2": "215986", "3": "55492", "4": "100459", "5": "137742" },
+  currentUser: { "index": 1, "userID": 13552, "userName": "sarah" },
   setuser: (index, userID, userName) => {
     requests.currentUser.index = index;
     console.log("set to ", requests.currentUser.userName);

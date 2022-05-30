@@ -10,9 +10,9 @@ import sqlite3
 # Adjusting pandas dataframe settings
 pd.set_option('display.max_columns', 500)
 # Reading Dataframes
-books = pd.read_csv("C:/Users/Pratiman Joshi/OneDrive/Desktop/reccomender/version 1.1/Books.csv", low_memory='False')
-ratings = pd.read_csv('C:/Users/Pratiman Joshi/OneDrive/Desktop/reccomender/version 1.1/Ratings.csv', low_memory='False')
-users = pd.read_csv("C:/Users/Pratiman Joshi/OneDrive/Desktop/reccomender/version 1.1/Users.csv", low_memory='False')
+books = pd.read_csv("./assets/Books.csv", low_memory='False')
+ratings = pd.read_csv('./assets/Ratings.csv', low_memory='False')
+users = pd.read_csv("./assets/Users.csv", low_memory='False')
 
 
 # In[2]:

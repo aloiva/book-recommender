@@ -8,9 +8,15 @@
   width: 100%;
 }
 
-.recommender-book-container .book-card-container {
+.recommender-book-container .card-wrap {
   margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
 }
+/* .recommender-book-container .card-wrap .book {
+  width: 
+} */
 
 .recommender-book-container .image-container {
   display: flex;

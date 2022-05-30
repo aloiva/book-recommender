@@ -2,6 +2,9 @@
 
 From a database of ratings from users on books, suggest a user a list of books they might like based on the [collaborative filtering](https://developers.google.com/machine-learning/recommendation/collaborative/basics) algorithm. The app is built on ReactJS for fast rendering of UI and FastAPI for fast and efficient server performance. Made for Microsoft Engage 2022 Mentorship program.
 
+# [Link to video demo](https://youtu.be/prH_rD0Eh9s)
+# [Link to documentation](#)
+
 # Features
 
 1. An efficient recommendation system making use of collaborative filtering algorithm to suggest the current user 10 books that they might like.
@@ -73,10 +76,10 @@ Make sure that Python 3.6 or above is installed before running the following com
 The database can be created at the instance from the .csv files provided (taken from [Kaggle](https://www.kaggle.com/datasets/saurabhbagchi/books-dataset)) or downloaded. Downloading is suggested.
 Changes made while the app is being hosted will be reflected locally in the database as well. 
 
-> Download the database extracted at an instance [here](https://1drv.ms/u/s!AhrbshVITvFzi0vKg037nlLUiVv-?e=5aD9g8) into `./server` directory
+#### Download the database extracted at an instance [here](https://1drv.ms/u/s!AhrbshVITvFzi0vKg037nlLUiVv-?e=5aD9g8) into `./server` directory
 
 or
-> Although not suggested due to the amount of resources and time it consumes, to create the initial database, run `./server/makedb.py`
+#### Although not suggested due to the amount of resources and time it consumes, to create the initial database, run `./server/makedb.py`
 
 ### Backend
 
@@ -101,9 +104,11 @@ This will start the app, and run it by default on [http://localhost:3000/](http:
 # Screenshots
 ### Homepage
 ![Homepage](./screenshots/homepage.png)
-### Recommendations page
-![Recommendations](./screenshots/recommendations.png)
-### Search page
-![search page](./screenshots/search_page.png)
 ### Users page
 ![Users page](./screenshots/switch_user_page.png)
+### Recommendations page
+![Recommendations](./screenshots/recommendations.png)
+### recommendations when the user is changed
+![Recommendations_other_user](./screenshots/recommendations2.png)
+### Search page
+![search page](./screenshots/search_page.png)

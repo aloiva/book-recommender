@@ -56,7 +56,7 @@ const SearchBar = () => {
             <a href="#">Documentation</a>
           </li>
           <li className="nav-item">
-            <a href="#">GitHub</a>
+            <a href="https://github.com/aloiva/book-recommender">GitHub</a>
           </li>
         </ul>
         <ul className="datetime nav">
